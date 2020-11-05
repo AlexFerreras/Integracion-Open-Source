@@ -24,7 +24,7 @@ export default function Header() {
       <AppBar position="static" color="primary">
         <Toolbar>
           <Typography variant="h6" className={classes.title}>
-            Práctica III
+            Termopac BD Integration
           </Typography>
         </Toolbar>
       </AppBar>

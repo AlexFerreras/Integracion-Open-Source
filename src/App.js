@@ -1,9 +1,7 @@
 import React from 'react';
 import Container from '@material-ui/core/Container';
 import Header from './layout/Header'
-import Download from './layout/Download'
-import Upload from './layout/Upload'
-import SingleStudent from './components/SingleStudent'
+import Termopac from './components/termopac/index'
 
 import {
   BrowserRouter as Router,
@@ -22,13 +20,9 @@ const App = () => {
       <Container maxWidth="xl" style={styles}>
         <Router>
           <Switch>
-            <Route path="/estudiante">
-              <br/>
-              <SingleStudent />
-            </Route>
             <Route exact path="/">
               <br/>  
-              <Download />
+              <Termopac />
             </Route>
           </Switch>
         </Router>
