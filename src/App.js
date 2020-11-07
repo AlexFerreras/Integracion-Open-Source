@@ -1,7 +1,7 @@
 import React from 'react';
 import Container from '@material-ui/core/Container';
 import Header from './layout/Header'
-import Termopac from './components/termopac/index'
+import Cxc from './components/cxc/index'
 
 import {
   BrowserRouter as Router,
@@ -22,7 +22,7 @@ const App = () => {
           <Switch>
             <Route exact path="/">
               <br/>  
-              <Termopac />
+              <Cxc />
             </Route>
           </Switch>
         </Router>
