@@ -1,7 +1,7 @@
 import React from 'react';
 import Container from '@material-ui/core/Container';
 import Header from './layout/Header'
-import Cxc from './components/cxc/index'
+import ClienteA from './components/client-a/index'
 
 import {
   BrowserRouter as Router,
@@ -22,7 +22,7 @@ const App = () => {
           <Switch>
             <Route exact path="/">
               <br/>  
-              <Cxc />
+              <ClienteA />
             </Route>
           </Switch>
         </Router>
